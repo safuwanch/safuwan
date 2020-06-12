@@ -1,4 +1,5 @@
 a=input('enter a number:-')
-for x in range(a):
+b=int(a)
+for x in range(b):
     print(a);
     
