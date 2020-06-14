@@ -29,11 +29,8 @@
 
 
 
-
-
-
-
-boy = input("Whats the boy's name:")
+while(True):
+    boy = input("Whats the boy's name:")
 print(boy)
 girl = input("Whats the girl's name:")
 print(girl)
@@ -140,3 +137,4 @@ def lovechecker():
       
 
 lovechecker()
+
