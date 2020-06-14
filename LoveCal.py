@@ -37,7 +37,7 @@ while(True):
     lovecount = 0
 
     def heart(x):
-    print("""
+        print("""
          LOVE METER:
                     ___    ___
                    (   \__/   )
@@ -46,7 +46,7 @@ while(True):
                       \    /
                        \  /
                         \/
-    """.format(x))
+        """.format(x))
 
 
     def lovechecker():
