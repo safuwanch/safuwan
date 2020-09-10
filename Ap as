@@ -1,0 +1,60 @@
+
+print(
+
+'''           AP
+
+          ****    
+
+THIS SCRIPT FOR
+
+a) FINDING NTH TERM(n is your option)
+
+b) FINDING POSSITION OF A TERM
+
+note:-
+
+#if a) you have to enter x=0
+
+#if b) you have to enter n=0
+
+^ here 
+
+     x1 = a term
+
+     n1 = x1's possition
+
+     
+
+     same in case of x2 and n2 ''')
+
+x1=int(input('x1:='))
+
+n1=int(input('n1:='))
+
+x2=int(input('x2:='))
+
+n2=int(input('n2:='))
+
+x=int(input('x:='))
+
+n=int(input('n:='))
+
+d=(x2-x1)/(n2-n1)
+
+print('common difference = ',d)
+
+a=x2-(n2-1)*d
+
+print('first term = ',a)
+
+if x==0 and n!=0:
+
+ x=a+(n-1)*d
+
+ print(n,'th term is',X);
+
+if x!=0 and n==0:
+
+ n= ((x-a)/d)+1
+
+ print(x, 'is the',n,'th term')
