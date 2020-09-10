@@ -51,7 +51,7 @@ if x==0 and n!=0:
 
  x=a+(n-1)*d
 
- print(n,'th term is',X);
+ print(n,'th term is',x);
 
 if x!=0 and n==0:
 
